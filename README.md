@@ -73,7 +73,7 @@ Please, make sure that the keys are sorted alphabetically so that we get friends
 2. Find top-10 friend pairs by their total number of common friends. For each top-10 friend pair print detail information in decreasing order of total number of common friends. 
 
 ##### Output format can be:
-<Total number of Common Friends><TAB><First Name of User A><TAB><Last Name of User A> <TAB><address of User A><TAB><First Name of User B><TAB><Last Name of User B><TAB><address of User B>
+<Total number of Common Friends> <TAB> <First Name of User A> <TAB> <Last Name of User A> <TAB><address of User A> <TAB><First Name of User B> <TAB> <Last Name of User B> <TAB><address of User B>
 
 3. List the 'user id' and 'rating' of users that reviewed businesses classified as “Colleges & Universities” in list of categories.
 ##### Data set info :
@@ -84,6 +84,7 @@ business.csv. review.csv. user.csv.
 The data set comprises of three csv files, namely user.csv, business.csv and review.csv.
 Business.csv file contain basic information about local businesses.
 Business.csv file contains the following columns "business_id"::"full_address"::"categories"
+
 'business_id': (a unique identifier for the business) 'full_address': (localized address),
 'categories': [(localized category names)]
 review.csv file contains the star rating given by a user to a business. Use user_id to associate this review with others by the same user. Use business_id to associate this review with others of the same business.
