@@ -70,12 +70,12 @@ I have sorted the friend list in the map phase. So, in reducer side we get 2 sor
 Please, make sure that the keys are sorted alphabetically so that we get friends list for 2 person on the same reducer.
 
 
-2. Find top-10 friend pairs by their total number of common friends. For each top-10 friend pair print detail information in decreasing order of total number of common friends. 
+#### Program 2. Find top-10 friend pairs by their total number of common friends. For each top-10 friend pair print detail information in decreasing order of total number of common friends. 
 
 ##### Output format can be:
 <Total number of Common Friends> <TAB> <First Name of User A> <TAB> <Last Name of User A> <TAB><address of User A> <TAB><First Name of User B> <TAB> <Last Name of User B> <TAB><address of User B>
 
-3. List the 'user id' and 'rating' of users that reviewed businesses classified as “Colleges & Universities” in list of categories.
+#### Program 3. List the 'user id' and 'rating' of users that reviewed businesses classified as “Colleges & Universities” in list of categories.
 ##### Data set info :
 The dataset files are as follows and columns are separate using ‘::’ business.csv. review.csv. user.csv.
 
@@ -103,7 +103,7 @@ Required files are 'business' and 'review'.
 User id Rating 0WaCdhr3aXb0G0niwTMGTg 4.0
 
 
-4. List the business_id , full address and categories of the Top 10 businesses located in "NY" using the average ratings.
+#### Program 4. List the business_id , full address and categories of the Top 10 businesses located in "NY" using the average ratings.
 ##### Sample output:
 business_id | full address | categories | avg rating <br/>
 xdf12344444444, CA 91711 List['Local Services', 'Carpet Cleaning'] 5.0
