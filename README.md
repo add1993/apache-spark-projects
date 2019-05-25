@@ -77,26 +77,26 @@ Please, make sure that the keys are sorted alphabetically so that we get friends
 
 3. List the 'user id' and 'rating' of users that reviewed businesses classified as “Colleges & Universities” in list of categories.
 ##### Data set info :
-The dataset files are as follows and columns are separate using ‘::’
-business.csv. review.csv. user.csv.
+The dataset files are as follows and columns are separate using ‘::’ business.csv. review.csv. user.csv.
 
-##### Data set Descriptio :
-The data set comprises of three csv files, namely user.csv, business.csv and review.csv.
-Business.csv file contain basic information about local businesses.
-Business.csv file contains the following columns "business_id"::"full_address"::"categories"
+##### Dataset Description :
+The data set comprises of three csv files, namely user.csv, business.csv and review.csv.<br/>
+Business.csv file contain basic information about local businesses.<br/>
+Business.csv file contains the following columns "business_id"::"full_address"::"categories"<br/>
 
-'business_id': (a unique identifier for the business) 'full_address': (localized address),
-'categories': [(localized category names)]
+'business_id': (a unique identifier for the business) 'full_address': (localized address),'categories': [(localized category names)]<br/>
+
 review.csv file contains the star rating given by a user to a business. Use user_id to associate this review with others by the same user. Use business_id to associate this review with others of the same business.
-review.csv file contains the following columns "review_id"::"user_id"::"business_id"::"stars" 'review_id': (a unique identifier for the review)
-'user_id': (the identifier of the reviewed business),
-'business_id': (the identifier of the authoring user),
-'stars': (star rating, integer 1-5),the rating given by the user to a business
-user.csv file contains aggregate information about a single user across all of Yelp user.csv file contains the following columns "user_id"::"name"::"url"
-user_id': (unique user identifier),
-'name': (first name, last initial, like 'Matt J.'), this column has been made anonymous to preserve privacy
-'url': url of the user on yelp
-Note: :: is Column separator in the files.
+review.csv file contains the following columns "review_id"::"user_id"::"business_id"::"stars" 'review_id': (a unique identifier for the review)<br/>
+
+'user_id': (the identifier of the reviewed business),<br/>
+'business_id': (the identifier of the authoring user),<br/>
+'stars': (star rating, integer 1-5),the rating given by the user to a business<br/>
+user.csv file contains aggregate information about a single user across all of Yelp user.csv file contains the following columns "user_id"::"name"::"url"<br/>
+user_id': (unique user identifier),<br/>
+'name': (first name, last initial, like 'Matt J.'), this column has been made anonymous to preserve privacy<br/>
+'url': url of the user on yelp<br/>
+Note: :: is Column separator in the files.<br/>
 
 Required files are 'business' and 'review'.
 ##### Sample output
@@ -104,3 +104,6 @@ User id Rating 0WaCdhr3aXb0G0niwTMGTg 4.0
 
 
 4. List the business_id , full address and categories of the Top 10 businesses located in "NY" using the average ratings.
+##### Sample output:
+business_id | full address | categories | avg rating <br/>
+xdf12344444444, CA 91711 List['Local Services', 'Carpet Cleaning'] 5.0
