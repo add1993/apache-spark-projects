@@ -107,3 +107,11 @@ User id Rating 0WaCdhr3aXb0G0niwTMGTg 4.0
 ##### Sample output:
 business_id | full address | categories | avg rating <br/>
 xdf12344444444, CA 91711 List['Local Services', 'Carpet Cleaning'] 5.0
+
+#### Program 5 : Spark Streaming Word Count. This is used to give a word count of the streaming data.
+Run the sparkstream_word_count.py program and provide it the kafka host and the topic name.<br/>
+Command : ./spark-submit sparkstream_word_count.py localhost:9092 test <br/>
+"test" is the topic name and localhost:9092 is the kafka server address. <br/>
+
+Run Stream Producer to produce continuous data and publish it on topic test. <br/>
+Please, add the Guardian website APIs in the program by registering for guardian APIs and creating an API key.
