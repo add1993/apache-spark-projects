@@ -17,7 +17,6 @@
   for (e <- res1) {
     st = e.split(",")(0) + "\t" + df.filter(df("_c0").equalTo(e.split(",")(1))).select("_c1", "_c2").collect().map(row => row.mkString(",")).mkString(" ") + "\t" + df.filter(df("_c0").equalTo(e.split(",")(1))).select("_c3", "_c4").collect().map(row => row.mkString(",")).mkString(" ") + "\t" + df.filter(df("_c0").equalTo(e.split(",")(2))).select("_c1", "_c2").collect().map(row => row.mkString(",")).mkString(" ") + "\t" + df.filter(df("_c0").equalTo(e.split(",")(2))).select("_c3", "_c4").collect().map(row => row.mkString(",")).mkString(" ")
     resultArray += st
-    println(st)
   }
 
   def Map(line: String) = {
